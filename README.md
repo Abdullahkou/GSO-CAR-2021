@@ -1,2 +1,2 @@
-# GSO-CAR-2021
+# GSO-CAR
 unser schulprojekt / hauptsächlich mit der Sprache Python | PHP

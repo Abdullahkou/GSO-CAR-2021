@@ -1,0 +1,128 @@
+	*
+{
+    background-color: whitesmoke;
+}
+h1
+{
+    text-align: center;
+}
+.text {
+	position: absolute;
+}
+.center {
+	text-align: center;
+}
+.w100 {
+	width: 100%;
+}
+.grey {
+	color: #888;
+}
+
+button
+{
+	border: 2px solid none;
+	font-size: 15px;
+	border-radius: 30px;
+	width: 6vmax;
+	height: 6vmax;
+}
+
+/* Control*/
+
+.move
+{
+	position: fixed;
+	right: 5%;
+	bottom: 10vmax;
+    width: 20vmax;
+    height: 20vmax;
+}
+
+.up
+{
+	position: absolute;
+	left: 33%;
+	top: 0;
+}
+.down
+{
+	position: absolute;
+	left: 33%;
+	top: 66%;
+}
+.left
+{
+	position: absolute;
+	left: 0;
+	top: 33%;
+}
+.right
+{
+	position: absolute;
+	left: 66%;
+	top: 33%;
+}
+.stop
+{
+	position: absolute;
+	left: 33%;
+	top: 33%;
+}
+
+/*Aufnahme*/
+
+.aufnahme
+{	
+	position: fixed;
+	left: 5%;
+	bottom: 10vmax;
+    width: 20vmax;
+    height: 20vmax;
+}
+.aufnahme button
+{
+	border-radius: 1px;
+}
+
+.aufnahme button
+{
+	font-size: 17px;
+}
+
+/*Container*/
+
+.container
+{
+	position: fixed;
+	left: 25%;
+	bottom: 10vmax;
+    width: 13vmax;
+    height: 13vmax;
+}
+
+.upleft
+{	
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.upright
+{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.downleft
+{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.downright
+{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
